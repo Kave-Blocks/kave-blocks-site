@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Pirulen;
+  src: url(../fonts/pirulen rg.otf);
+}
+
+.animate-container:hover .infinite-x-animate {
+  animation-play-state: paused;
+}
+
+.infinite-x-animate{
+  animation: moveToLeft 30s linear infinite;
+  font-family: Pirulen;
+}
+
+@keyframes moveToLeft{
+  0%{
+    transform: translateX(0);
+  }100%{
+    transform: translateX(-100%);
+  }
+}
