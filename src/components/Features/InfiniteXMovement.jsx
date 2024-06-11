@@ -22,7 +22,7 @@ const InfiniteXMovement = () => {
         <span className='w-[15px] h-[15px] rounded-full bg-white'></span>
         <span className='text-white text-6xl tracking-wider'>DESIGN</span>
         <span className='w-[15px] h-[15px] rounded-full bg-white'></span>
-        <span className='text-white text-6xl tracking-wider'>DEVELOP</span>
+        <span className='text-white text-6xl tracking-wider'>DEVELOP</span> 
         <span className='w-[15px] h-[15px] rounded-full bg-white'></span>
         <span className='text-white text-6xl pl-l tracking-wider'>MAINTAIN</span>
         <span className='w-[15px] h-[15px] rounded-full bg-white'></span>
@@ -48,3 +48,4 @@ const InfiniteXMovement = () => {
 }
 
 export default InfiniteXMovement
+  
