@@ -4,7 +4,7 @@ import Location from './Location'
 
 const Container = () => {
   return (
-    <div className='mx-auto max-w-screen-monitor w-full py-5 font-Raleway'>
+    <div className='mx-auto max-w-screen-monitor w-full py-5 font-Raleway px-20'>
       <div className="w-full flex justify-between items-center">
         <HeaderLogo />
         <Location />

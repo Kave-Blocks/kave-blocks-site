@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Pirulen;
-  src: url(../fonts/pirulen rg.otf);
+  src: url(./fonts/pirulen.otf);
 }
 
 .animate-container:hover .infinite-x-animate {
@@ -14,9 +14,14 @@
 }
 
 .infinite-x-animate{
-  animation: moveToLeft 30s linear infinite;
+  animation: moveToLeft 100s linear infinite;
   font-family: Pirulen;
 }
+
+h2{
+  font-family: Pirulen;
+}
+
 
 @keyframes moveToLeft{
   0%{
