@@ -5,6 +5,7 @@ import Featured1 from '../../components/Features/Featured1'
 import InfiniteXMovement from '../../components/Features/InfiniteXMovement'
 import Featured2 from '../../components/Features/Featured2'
 import Featured3 from '../../components/Features/Featured3'
+import InfiniteXMovement2 from '../../components/Features/InfiniteXMovenent2'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <InfiniteXMovement />
       <Featured2 />
       <Featured3 />
+      <InfiniteXMovement2 />
     </div>
   )
 }
