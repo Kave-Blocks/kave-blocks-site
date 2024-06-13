@@ -9,6 +9,23 @@
   src: url(./fonts/pirulen.otf);
 }
 
+* {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nap{
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+}
+
 .animate-container:hover .infinite-x-animate {
   animation-play-state: paused;
 }
@@ -29,4 +46,65 @@ h2, h3{
   }100%{
     transform: translateX(-100%);
   }
+}
+
+.project-container{
+  max-height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(3rem);
+  scroll-snap-type: y mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+.project-container .img{
+  scroll-snap-stop: always;
+  scroll-snap-align: start;
+	height: 100vh;
+}
+
+
+/* width */
+.project-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.project-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.project-container::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.project-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
