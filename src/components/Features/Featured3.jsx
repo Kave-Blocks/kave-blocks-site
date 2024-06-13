@@ -11,7 +11,7 @@ const Featured3 = () => {
           <br /> sit amet adipiscing{" "}
         </h2>
 
-        <div className="flex flex-col tablet:-space-y-20">
+        <div className="flex flex-col tablet:-space-y-32">
           <DivFadeRight>
             <div className="flex flex-col tablet:flex-row justify-center items-center">
               <div className="w-full tablet:min-w-[647px] py-10 tablet:py-0 tablet:h-[201px] rounded-[24px] px-5 tablet:px-20 border-[2px] border-[#C86B1F] bg-primary flex justify-center items-center">
