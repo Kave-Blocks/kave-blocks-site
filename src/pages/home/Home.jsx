@@ -12,53 +12,57 @@ import ShowCase from "../../components/projectsShowcase/ShowCase";
 import ShowCase2 from "../../components/projectsShowcase/ShowCase2";
 import Featured6 from "../../components/Features/Featured6";
 import GitInTouch from "../../components/GitInTouch/GitInTouch";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
     <div className="">
       <div className="flex flex-col snap-container">
-        <div className="flex flex-col nap">
+        <div className="flex flex-col snap">
           <Nav />
           <HeroContainer />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured1 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <InfiniteXMovement />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured2 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured3 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <InfiniteXMovement2 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured4 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <ShowCase />
         </div>
-        <div className="nap">
+        <div className="snap">
           <ShowCase2 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <ShowCase />
         </div>
-        <div className="nap">
+        <div className="snap">
           <ShowCase2 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured5 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <Featured6 />
         </div>
-        <div className="nap">
+        <div className="snap">
           <GitInTouch />
+        </div>
+        <div className="snap">
+         <Footer />  
         </div>
       </div>
     </div>

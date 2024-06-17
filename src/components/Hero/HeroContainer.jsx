@@ -3,7 +3,7 @@ import DivFadeIn from '../../animation/DivFadeIn'
 
 const HeroContainer = () => {
     return (
-        <div className='mx-auto max-w-screen-monitor min-h-screen w-full px-4 tablet:px-0'>
+        <div className='mx-auto max-w-screen-monitor tablet:min-h-screen w-full px-4 tablet:px-0'>
           <div className="w-full h-full flex flex-col justify-center items-center">
             <DivFadeIn>
                 <img src="/circle.svg" alt="" draggable='false' className='select-none'/>

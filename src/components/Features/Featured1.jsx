@@ -3,7 +3,7 @@ import DivFadeIn from '../../animation/DivFadeIn'
 
 const Featured1 = () => {
   return (
-    <div className='min-h-screen flex justify-center items-center'>
+    <div className='tablet:smin-h-screen flex justify-center items-center'>
       <DivFadeIn>
         <img src="/featured1.svg" alt="" className='object-cover object-center'/>
       </DivFadeIn>

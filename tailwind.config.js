@@ -22,6 +22,9 @@ export default {
       'paragraph': '#555555',
       'white': '#FFFFFF',
     },
+    borderColor: {
+      'primary': '#1e1e1e',
+    },
     fontFamily: {
       'Raleway': ["Raleway", "sans-serif"]
     },
