@@ -4,15 +4,15 @@ const Featured4 = () => {
   return (
     <div className='min-h-screen flex justify-center items-center py-20 px-4'>
         <div className="w-full mx-auto max-w-7xl flex flex-col gap-y-3">
-            <div className="flex flex-col laptop:flex-row gap-3">
+            <div className="flex flex-col desktop:flex-row gap-3">
                 <img src="/featImg1.svg" alt="" />
                 <img src="/featImg2.svg" alt="" />
             </div>
-            <div className="flex flex-col laptop:flex-row gap-3">
+            <div className="flex flex-col desktop:flex-row gap-3">
                 <img src="/featImg3.svg" alt="" />
                 <img src="/featImg4.svg" alt="" />
             </div>
-            <div className="flex flex-col laptop:flex-row gap-3">
+            <div className="flex flex-col desktop:flex-row gap-3">
                 <img src="/featImg5.svg" alt="" />
                 <img src="/featImg6.svg" alt="" />
             </div>
