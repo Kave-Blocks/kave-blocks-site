@@ -38,6 +38,12 @@ html{
 h2, h3{
   font-family: Pirulen;
 }
+.span-head{
+  font-family: Pirulen;
+}
+.btn-gitIntouch{
+  font-family: Pirulen;
+}
 
 
 @keyframes moveToLeft{

@@ -10,6 +10,8 @@ import Featured4 from "../../components/Features/Featured4";
 import Featured5 from "../../components/Features/Featured5";
 import ShowCase from "../../components/projectsShowcase/ShowCase";
 import ShowCase2 from "../../components/projectsShowcase/ShowCase2";
+import Featured6 from "../../components/Features/Featured6";
+import GitInTouch from "../../components/GitInTouch/GitInTouch";
 
 const Home = () => {
   return (
@@ -52,9 +54,22 @@ const Home = () => {
         <div className="nap">
           <Featured5 />
         </div>
+        <div className="nap">
+          <Featured6 />
+        </div>
+        <div className="nap">
+          <GitInTouch />
+        </div>
       </div>
     </div>
   );
 };
 
 export default Home;
+
+
+
+
+
+
+
