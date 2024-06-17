@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='flex justify-center items-center py-20 bg-black'>
         <div className="mx-auto max-w-7xl w-full flex flex-col laptop:flex-row">
             <div className="flex-[1] flex justify-center items-center mb-10 laptop:mb-0">
-                <h2 className='text-2xl tablet:text-5xl text-white'>DIGITAL WEB3 AGENCY</h2>
+                <h2 className='text-2xl tablet:text-5xl text-white text-center tablet:text-start'>DIGITAL WEB3 AGENCY</h2>
             </div>
             <div className="flex-[1] flex justify-center items-center border-l-[1px] border-white px-10 text-white">
                 <div className="flex flex-col justify-center items-center gap-y-7">
