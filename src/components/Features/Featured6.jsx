@@ -11,16 +11,16 @@ const Featured6 = () => {
             skills.
           </h1>
         </div>
-        <div className="flex flex-col tablet:flex-row h-[571px] w-full gap-x-10">
+        <div className="flex flex-col laptop:flex-row h-[571px] w-full gap-x-10">
           <div className="flex-[1.5] relative bg-[#D9D9D9] rounded-r-[30px] w-full">
             <img
               src="/featured6_img1.svg"
               alt=""
-              className="tablet:absolute tablet:-bottom-10 tablet:-right-10"
+              className="laptop:absolute laptop:-bottom-10 laptop:-right-10"
             />
           </div>
           <div className="flex-[1] h-full p-7">
-            <div className="h-full tablet:w-[66%] flex flex-col gap-y-10 justify-between">
+            <div className="h-full laptop:w-[66%] flex flex-col gap-y-10 justify-between">
               <p className="text-[20px] text-[#555555]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
