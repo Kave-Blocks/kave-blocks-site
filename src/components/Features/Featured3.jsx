@@ -7,8 +7,8 @@ const Featured3 = () => {
     <div className="min-h-screen flex justify-center items-center py-20 px-4">
       <div className="mx-auto max-w-7xl flex flex-col gap-y-10 w-full">
         <h2 className="text-[20px] tablet:text-[36px] text-center text-black">
-          Lorem ipsum dolor
-          <br /> sit amet adipiscing{" "}
+          Your One-Stop web3
+          <br /> Digital Service Hub{" "}
         </h2>
 
         <div className="flex flex-col laptop:-space-y-32">
@@ -20,8 +20,9 @@ const Featured3 = () => {
                     blockchain solutions
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    <br /> elit, sed do eiusmod tempor incididunt ut labore et
+                    We use advanced technology to provide secure, innovative
+                    <br /> solutions that enhance and streamline your business
+                    operations.
                   </p>
                 </div>
               </div>
@@ -37,8 +38,8 @@ const Featured3 = () => {
                     Software Development
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    <br /> esse cillum dolore eu fugiat nulla pariatur.
+                    Our dedicated team creates customized solutions tailored
+                    <br /> to your specific needs, smoother and more efficient.
                   </p>
                 </div>
               </div>
@@ -52,8 +53,10 @@ const Featured3 = () => {
                     Digital marketing
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    <br /> elit, sed do eiusmod tempor incididunt ut labore et
+                    We help you connect with your audience through carefully
+                    crafted
+                    <br /> online strategies that boost your presence and
+                    engagement.
                   </p>
                 </div>
               </div>
@@ -69,9 +72,9 @@ const Featured3 = () => {
                     Branding design
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse
-                    <br /> cillum dolore eu fugiat nulla pariatur.
+                    Our design create visuals that truly resonate with your
+                    <br /> audience, effectively reflecting your brand's unique
+                    identity.
                   </p>
                 </div>
               </div>
@@ -85,8 +88,9 @@ const Featured3 = () => {
                     Multimedia production
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing
-                    <br /> elit, sed do eiusmod tempor incididunt ut labore et
+                    We produce creative and engaging content that keeps your
+                    <br /> audience informed and entertained, fostering a loyal
+                    following.
                   </p>
                 </div>
               </div>
@@ -102,8 +106,9 @@ const Featured3 = () => {
                     Cloud services
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Our reliable services are designed to streamline your
+                    business operations, providing flexibility and improved
+                    efficiency.
                   </p>
                 </div>
               </div>

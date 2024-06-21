@@ -12,11 +12,16 @@ const Featured6 = () => {
           </h1>
         </div>
         <div className="flex flex-col laptop:flex-row h-[571px] w-full gap-x-10">
-          <div className="flex-[1.5] relative bg-[#D9D9D9] rounded-r-[30px] w-full">
+          <div className="flex-[1.5] relative rounded-r-[30px] w-full">
+            <img
+              src="/Rectangle 52.svg"
+              alt=""
+              className="object-cover w-full"
+            />
             <img
               src="/featured6_img1.svg"
               alt=""
-              className="laptop:absolute laptop:-bottom-10 laptop:-right-10"
+              className="laptop:absolute laptop:-bottom-20 laptop:-right-10"
             />
           </div>
           <div className="flex-[1] h-full p-7">

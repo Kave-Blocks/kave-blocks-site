@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const ShowCase2 = () => {
   return (
     <div className="">
-            <img src="/Web3ducation.svg" alt="" className='w-full'/>
-        </div>
-  )
-}
+      <img src="/aixpecadoImg.svg" alt="" className="w-full" />
+    </div>
+  );
+};
 
-export default ShowCase2
+export default ShowCase2;

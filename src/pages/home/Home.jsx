@@ -13,6 +13,7 @@ import ShowCase2 from "../../components/projectsShowcase/ShowCase2";
 import Featured6 from "../../components/Features/Featured6";
 import GitInTouch from "../../components/GitInTouch/GitInTouch";
 import Footer from "../../components/Footer/Footer";
+import ShowCase1 from "../../components/projectsShowcase/ShowCase1";
 
 const Home = () => {
   return (
@@ -44,10 +45,7 @@ const Home = () => {
           <ShowCase />
         </div>
         <div className="snap">
-          <ShowCase2 />
-        </div>
-        <div className="snap">
-          <ShowCase />
+          <ShowCase1 />
         </div>
         <div className="snap">
           <ShowCase2 />
@@ -62,7 +60,7 @@ const Home = () => {
           <GitInTouch />
         </div>
         <div className="snap">
-         <Footer />  
+          <Footer />
         </div>
       </div>
     </div>
@@ -70,10 +68,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-
-
-
-
-

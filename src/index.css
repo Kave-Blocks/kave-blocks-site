@@ -21,6 +21,7 @@ html{
   -webkit-overflow-scrolling: touch;
 }
 
+
 .snap{
   scroll-snap-stop: always;
   scroll-snap-align: start;
