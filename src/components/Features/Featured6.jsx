@@ -27,18 +27,20 @@ const Featured6 = () => {
           <div className="flex-[1] h-full p-7">
             <div className="h-full laptop:w-[66%] flex flex-col gap-y-10 justify-between">
               <p className="text-[20px] text-[#555555]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                At Kave Blocks, we are driven by a passion for innovation and
+                excellence. Our team combines diverse professional expertise to
+                deliver tailored IT solutions that propel businesses forward in
+                the digital age.
               </p>
               <p className="text-[20px] text-[#555555]">
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat
+                With a commitment to harnessing cutting-edge technology, we
+                empower our clients to achieve their goals and navigate the
+                complexities of today's digital landscape.
               </p>
               <p className="text-[20px] text-[#555555]">
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum
+                Discover how Kave Blocks can elevate your business with our
+                comprehensive suite of services, from blockchain solutions to
+                multimedia production and beyond.
               </p>
               <button className="bg-[#C86B1F] px-[25px] py-[20px] rounded-full text-white tablet:w-[max-content]">
                 REQUEST A QUOTE
