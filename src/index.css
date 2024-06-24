@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -13,62 +13,34 @@
   box-sizing: border-box;
 }
 
-html{
-  scroll-behavior: smooth;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-
-
-.snap{
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
-}
-
 .animate-container:hover .infinite-x-animate {
   animation-play-state: paused;
 }
 
-.infinite-x-animate{
+.infinite-x-animate {
   animation: moveToLeft 100s linear infinite;
   font-family: Pirulen;
 }
 
-h2, h3{
+h2,
+h3 {
   font-family: Pirulen;
 }
-.span-head{
+.span-head {
   font-family: Pirulen;
 }
-.btn-gitIntouch{
+.btn-gitIntouch {
   font-family: Pirulen;
 }
 
-
-@keyframes moveToLeft{
-  0%{
+@keyframes moveToLeft {
+  0% {
     transform: translateX(0);
-  }100%{
+  }
+  100% {
     transform: translateX(-100%);
   }
 }
-
-.project-container{
-  max-height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(3rem);
-  scroll-snap-type: y mandatory;
-  -webkit-overflow-scrolling: touch;
-}
-.project-container .img{
-  scroll-snap-stop: always;
-  scroll-snap-align: start;
-	height: 100vh;
-}
-
 
 /* width */
 .project-container::-webkit-scrollbar {
@@ -90,10 +62,6 @@ h2, h3{
   background: #555;
 }
 
-
-
-
-
 /* width */
 ::-webkit-scrollbar {
   width: 8px;
@@ -102,7 +70,6 @@ h2, h3{
 /* Track */
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
-  
 }
 
 /* Handle */

@@ -2,16 +2,16 @@ import React from "react";
 
 const Featured6 = () => {
   return (
-    <div className="tablet:min-h-screen flex justify-center items-center py-20">
+    <div className="tablet:min-h-screen flex justify-center items-center tablet:py-20">
       <div className="flex flex-col gap-y-10">
         <div className="mx-auto flex justify-center items-center max-w-7xl w-full">
-          <h1 className="text-[32px] md:text-[40px] font-Raleway leading-[52px] tracking-[3%] w-[80%] text-black font-semibold">
+          <h1 className="text-[24px] md:text-[40px] font-Raleway tablet:leading-[52px] tracking-[3%] w-[80%] text-black font-semibold">
             Starting as enthusiasts Young people walking who wanted to make
             something truly great for other people, we combined our professional
             skills.
           </h1>
         </div>
-        <div className="flex flex-col laptop:flex-row h-[571px] w-full gap-x-10">
+        <div className="flex flex-col laptop:flex-row tablet:h-[571px] w-full gap-x-10">
           <div className="flex-[1.5] relative rounded-r-[30px] w-full">
             <img
               src="/Rectangle 52.svg"
