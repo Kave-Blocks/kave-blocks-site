@@ -28,7 +28,7 @@ const Featured2 = () => {
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[130px]">
             <img src="/developImg.svg" alt="" />
             <div className="flex flex-col gap-y-4 w-full px-10">
-              <h3 className="text-[24px] text-black">DESIGN</h3>
+              <h3 className="text-[24px] text-black">DEVELOP</h3>
               <p className="text-paragraph font-Raleway">
                 Our solutions are thoughtfully gestated, <br /> developed, and
                 tested for perfection.
@@ -38,7 +38,7 @@ const Featured2 = () => {
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[260px]">
             <img src="/maintainImg.svg" alt="" />
             <div className="flex flex-col gap-y-4 w-full px-10">
-              <h3 className="text-[24px] text-black">DESIGN</h3>
+              <h3 className="text-[24px] text-black">MAINTAIN</h3>
               <p className="text-paragraph font-Raleway">
                 We ensure seamless performance and
                 <br /> reliability for each of our finished projects.
