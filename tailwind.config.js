@@ -28,7 +28,23 @@ export default {
     fontFamily: {
       'Raleway': ["Raleway", "sans-serif"]
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        "fade-out-down": {
+          from: {
+            opacity: "1",
+            transform: "translateY(0)"
+          },
+          to: {
+            opacity: "0",
+            transform: "translateY(50%)"
+          }
+        }
+      },
+      animation: {
+        "fade-out-down": "fade-out-down 0.5s ease-out forwards"
+      }  
+    },
   },
   plugins: [
     require('daisyui'),
