@@ -2,7 +2,7 @@ import React from "react";
 
 const ShowCase1 = () => {
   return (
-    <div className="">
+    <div className="revealing-image">
       <img src="/web3ducationImg.svg" alt="" className="w-full object-cover" />
     </div>
   );
