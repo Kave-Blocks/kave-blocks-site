@@ -31,7 +31,6 @@ const Footer = () => {
             <h3>CONTACT</h3>
             <div className="flex flex-col">
               <p>kaveguild@gmail.com</p>
-              <p>+639153530821</p>
             </div>
             <Socials />
           </div>
