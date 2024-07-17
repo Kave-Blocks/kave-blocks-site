@@ -10,7 +10,7 @@ const Container = () => {
         <HeaderLogo />
         <DivFadeLeft>
         <a href="https://calendly.com/kaveguild" target="_blank" className="bg-[#C86B1F] text-white px-5 py-2 rounded-full font-Raleway font-semibold">
-        Git in Touch
+        Get in Touch
        </a>
         </DivFadeLeft>
       </div>
