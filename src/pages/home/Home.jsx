@@ -20,19 +20,15 @@ const Home = () => {
       <div className="flex flex-col snap-container">
         <Nav />
         <HeroContainer />
-        <Featured1 />
+        {/* <Featured1 /> */}
         <InfiniteXMovement />
         <Featured2 />
         <Featured3 />
         <InfiniteXMovement2 />
         <Featured4 />
-        <div className="flex flex-col snap-mandatory snap-y">
-          <div className="snap-center">
-            <ShowCase />
-          </div>
-          <div className="snap-center">
-            <ShowCase1 />
-          </div>
+        <div className="flex flex-col">
+          <ShowCase />
+          <ShowCase1 />
         </div>
         <Featured5 />
         <Featured6 />

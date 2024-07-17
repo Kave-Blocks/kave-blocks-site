@@ -4,11 +4,9 @@ const Featured6 = () => {
   return (
     <div className="tablet:min-h-screen flex justify-center items-center tablet:py-20">
       <div className="flex flex-col gap-y-10">
-        <div className="mx-auto flex justify-center items-center max-w-7xl w-full">
-          <h1 className="text-[24px] md:text-[40px] font-Raleway tablet:leading-[52px] tracking-[3%] w-[80%] text-black font-semibold">
-            Starting as enthusiasts Young people walking who wanted to make
-            something truly great for other people, we combined our professional
-            skills.
+        <div className="mx-auto flex justify-center items-center max-w-[1030px]">
+          <h1 className="text-[24px] md:text-[40px] text-start w-[60%] font-Raleway tracking-[3%] text-black font-bold">
+          Starting as enthusiasts Young people walking who wanted to make something truly great for other people, we combined our professional skills.
           </h1>
         </div>
         <div className="flex flex-col laptop:flex-row tablet:h-[571px] w-full gap-x-10">
