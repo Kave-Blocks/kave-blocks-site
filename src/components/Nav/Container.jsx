@@ -4,10 +4,12 @@ import Location from "./Location";
 
 const Container = () => {
   return (
-    <div className="mx-auto max-w-screen-monitor w-full py-5 font-Raleway px-4 md:px-20">
+    <div className="mx-auto max-w-screen-desktop w-full py-5 font-Raleway px-4 md:px-20">
       <div className="w-full flex justify-between items-center">
         <HeaderLogo />
-        {/* <Location /> */}
+       <a href="https://calendly.com/kaveguild" target="_blank" className="bg-[#C86B1F] text-white px-5 py-2 rounded-full font-Raleway font-semibold">
+        Git in Touch
+       </a>
       </div>
     </div>
   );

@@ -12,9 +12,9 @@ const GitInTouch = () => {
           BLOCKS
         </span>
       </div>
-      <button className="text-transparent bg-gradient-to-r from-[#C86B1F] to-[#3222B4] text-white flex flex-row flex-nowrap gap-x-10 rounded-full w-[max-content] mx-auto border-none tablet:text-4xl laptop:text-6xl btn-gitIntouch tablet:px-16 laptop:py-20 laptop:px-28 px-7 py-3">
+      <a href="https://calendly.com/kaveguild" target="_blank" className="text-transparent hover:scale-[1.3] duration-300 bg-gradient-to-r from-[#C86B1F] to-[#3222B4] text-white flex flex-row flex-nowrap gap-x-10 rounded-full w-[max-content] mx-auto border-none tablet:text-4xl laptop:text-6xl btn-gitIntouch tablet:px-16 laptop:py-20 laptop:px-28 px-7 py-3">
         GET IN TOUCH <MoveUpRight className="w-[30px]" />
-      </button>
+      </a>
     </div>
   );
 };

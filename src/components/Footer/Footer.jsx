@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mx-auto max-w-7xl w-full flex flex-col laptop:flex-row">
         <div className="flex-[1] flex justify-center items-center mb-10 laptop:mb-0">
           <h2 className="text-2xl tablet:text-5xl text-white text-center tablet:text-start">
-            DIGITAL WEB3 AGENCY
+          YOUR WEB3 AGENCY
           </h2>
         </div>
         <div className="flex-[1] flex justify-center items-center border-l-[1px] border-white px-10 text-white">
@@ -31,7 +31,7 @@ const Footer = () => {
             <h3>CONTACT</h3>
             <div className="flex flex-col">
               <p>kaveguild@gmail.com</p>
-              <p>+63 953 248 2848</p>
+              <p>+639153530821</p>
             </div>
             <Socials />
           </div>
