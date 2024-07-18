@@ -48,9 +48,9 @@ const Featured6 = () => {
                 comprehensive suite of services, from blockchain solutions to
                 multimedia production and beyond.
               </p>
-              <button className="bg-[#C86B1F] px-[25px] py-[20px] rounded-full text-white tablet:w-[max-content]">
+              {/* <button className="bg-[#C86B1F] px-[25px] py-[20px] rounded-full text-white tablet:w-[max-content]">
                 REQUEST A QUOTE
-              </button>
+              </button> */}
             </div>
             </DivFadeLeft>
           </div>
