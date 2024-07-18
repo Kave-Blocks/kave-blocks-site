@@ -1,15 +1,18 @@
 import React from "react";
 import DivFadeRight from "../../animation/DivFadeRight";
 import DivFadeLeft from "../../animation/DivFadeLeft";
+import DivFadeIn from "../../animation/DivFadeIn";
 
 const Featured3 = () => {
   return (
     <div className="min-h-screen flex justify-center items-center py-20 px-4">
       <div className="mx-auto max-w-7xl flex flex-col gap-y-10 w-full">
-        <h2 className="text-[20px] tablet:text-[36px] text-center text-black">
-          Your One-Stop web3
-          <br /> Digital Service Hub{" "}
-        </h2>
+        <DivFadeIn>
+          <h2 className="text-[20px] tablet:text-[36px] text-center text-black">
+            Your One-Stop web3
+            <br /> Digital Service Hub{" "}
+          </h2>
+        </DivFadeIn>
 
         <div className="flex flex-col laptop:-space-y-32">
           <DivFadeRight>

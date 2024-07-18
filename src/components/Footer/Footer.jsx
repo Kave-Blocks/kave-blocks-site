@@ -17,7 +17,7 @@ const Footer = () => {
               alt=""
               className="w-[100px] tablet:w-[200px]"
             />
-            <p>
+            <p className="text-center">
               Kave Blocks provides expertly tailored IT solutions for
               businesses. Our mission is to empower businesses with cutting-edge
               technology and innovative strategies, propelling them towards
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         <div className="flex-[1] flex justify-center items-center border-l-[1px] border-white ">
           <div className="flex flex-col justify-center items-center laptop:justify-start laptop:items-start gap-y-5 w-full px-10 mt-10 text-white">
-            <h3>CONTACT</h3>
+            <h3 className="text-[20px]">CONTACT</h3>
             <div className="flex flex-col">
               <p>kaveguild@gmail.com</p>
             </div>

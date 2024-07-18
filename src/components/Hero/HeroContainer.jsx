@@ -9,6 +9,7 @@ const HeroContainer = () => {
             alt=""
             draggable="false"
             className="select-none"
+            fetchPriority="true"
           />
           <p className="text-[16px] text-center mx-auto md:text-[20px] font-semibold font-Raleway w-full tablet:w-[55%]">
             At Kave Blocks, we're dedicated to shaping the digital future, where

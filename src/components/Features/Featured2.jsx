@@ -1,4 +1,5 @@
 import React from "react";
+import DivFadeRight from "../../animation/DivFadeRight";
 
 const Featured2 = () => {
   return (
@@ -7,16 +8,25 @@ const Featured2 = () => {
         <img
           src="/circleOnly.svg"
           alt=""
-          className="hidden tablet:block absolute top-0 -right-12 z-0"
+          className="hidden tablet:block absolute top-0 -right-12 z-0 animate-bounce"
         />
 
-        <h2 className="text-[20px] tablet:text-[36px] text-start text-black mb-10 tablet:pl-20">
-          we take no-nonsense
-          <br /> process for clients{" "}
-        </h2>
+        <DivFadeRight>
+          <h2 className="text-[20px] tablet:text-[36px] text-start text-black mb-10 tablet:pl-20">
+            we take no-nonsense
+            <br /> process for clients{" "}
+          </h2>
+        </DivFadeRight>
         <div className="grid tablet:grid-cols-3 gap-5 z-10 w-full">
           <div className="flex flex-col gap-y-5 justify-start items-center">
-            <img src="/designImg.svg" alt="" />
+          <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
+            <img src="/designImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+            <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
+              <div className="h-full w-full flex justify-center items-center">
+                <h3 className="text-[40px] text-white font-bold tracking-wider">DESIGN</h3>
+              </div>
+            </div>
+          </div>
             <div className="flex flex-col gap-y-4 w-full px-10">
               <h3 className="text-[24px] text-black">DESIGN</h3>
               <p className="text-paragraph font-Raleway">
@@ -26,7 +36,14 @@ const Featured2 = () => {
             </div>
           </div>
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[130px]">
-            <img src="/developImg.svg" alt="" />
+            <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
+              <img src="/developImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+              <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
+                <div className="h-full w-full flex justify-center items-center">
+                  <h3 className="text-[40px] text-white font-bold tracking-wider">DEVELOP</h3>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col gap-y-4 w-full px-10">
               <h3 className="text-[24px] text-black">DEVELOP</h3>
               <p className="text-paragraph font-Raleway">
@@ -36,7 +53,14 @@ const Featured2 = () => {
             </div>
           </div>
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[260px]">
-            <img src="/maintainImg.svg" alt="" />
+            <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
+              <img src="/maintainImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+              <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
+                <div className="h-full w-full flex justify-center items-center">
+                  <h3 className="text-[40px] text-white font-bold tracking-wider">MAINTAIN</h3>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-col gap-y-4 w-full px-10">
               <h3 className="text-[24px] text-black">MAINTAIN</h3>
               <p className="text-paragraph font-Raleway">
