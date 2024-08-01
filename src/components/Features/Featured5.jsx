@@ -5,9 +5,9 @@ import DivFadeIn from "../../animation/DivFadeIn";
 
 const Featured5 = () => {
   return (
-    <div className="min-h-screen flex justify-center items-center py-20 px-4">
+    <div className="desktop:min-h-screen flex justify-center items-center py-20 px-4">
       <div className="mx-auto max-w-5xl w-full">
-        <div className="flex flex-col laptop:flex-row gap-5">
+        <div className="flex flex-col tablet:flex-row gap-5">
           <div className="flex-[1] flex flex-col justify-center items-center gap-y-5">
             <DivFadeRight>
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">

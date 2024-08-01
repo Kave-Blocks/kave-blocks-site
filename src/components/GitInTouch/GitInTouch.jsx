@@ -3,7 +3,7 @@ import React from "react";
 
 const GitInTouch = () => {
   return (
-    <div className="flex flex-col overflow-hidden laptop:-space-y-32 py-10 mb-10 tablet:mt-44 laptop:mt-0 ">
+    <div className="flex flex-col overflow-hidden laptop:-space-y-32 py-10 mb-10 laptop:mt-0">
       <div className="flex justify-center items-center flex-nowrap gap-x-20 w-full">
         <span className="text-[#C8C8C8] flex flex-nowrap text-[100px] laptop:text-[200px] span-head">
           KAVE

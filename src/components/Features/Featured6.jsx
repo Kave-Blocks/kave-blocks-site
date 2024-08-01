@@ -5,7 +5,7 @@ import DivFadeLeft from "../../animation/DivFadeLeft";
 
 const Featured6 = () => {
   return (
-    <div className="tablet:min-h-screen flex justify-center items-center tablet:py-20">
+    <div className="desktop:min-h-screen flex justify-center items-center tablet:py-20">
       <div className="flex flex-col gap-y-10">
         <DivFadeIn>
           <div className="mx-auto flex justify-center items-center max-w-[1030px]">
@@ -14,7 +14,7 @@ const Featured6 = () => {
             </h1>
           </div>
         </DivFadeIn>
-        <div className="flex flex-col laptop:flex-row tablet:h-[571px] w-full gap-x-10">
+        <div className="flex flex-col laptop:flex-row desktop:h-[571px] w-full gap-x-10">
           <div className="flex-[1.5] relative rounded-r-[30px] w-full">
             <DivFadeRight>
             <img
@@ -25,13 +25,13 @@ const Featured6 = () => {
             <img
               src="/featured6_img1.svg"
               alt=""
-              className="laptop:absolute laptop:-bottom-20 laptop:-right-10"
+              className="hidden laptop:block laptop:absolute laptop:-bottom-20 laptop:-right-10"
             />
             </DivFadeRight>
           </div>
           <div className="flex-[1] h-full p-7">
             <DivFadeLeft>
-            <div className="h-full laptop:w-[66%] flex flex-col gap-y-10 justify-between">
+            <div className="h-full desktop:w-[66%] flex flex-col gap-y-10 justify-between">
               <p className="text-[20px] text-[#555555]">
                 At Kave Blocks, we are driven by a passion for innovation and
                 excellence. Our team combines diverse professional expertise to

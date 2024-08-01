@@ -8,7 +8,7 @@ const Featured2 = () => {
         <img
           src="/circleOnly.svg"
           alt=""
-          className="hidden tablet:block absolute top-0 -right-12 z-0"
+          className="hidden laptop:block  laptop:absolute laptop:top-0 laptop:-right-12 z-0"
         />
 
         <DivFadeRight>
