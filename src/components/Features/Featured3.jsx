@@ -102,7 +102,7 @@ const Featured3 = () => {
           </DivFadeRight>
           <DivFadeLeft>
             <div className="flex flex-col-reverse laptop:flex-row justify-center items-center">
-              <img src="/cover.svg" alt="" />
+              <img src="/cut.svg" alt="" />
               <div className="w-full tablet:min-w-[647px] py-10 tablet:py-0 tablet:h-[201px] rounded-[24px] px-5 tablet:px-20 border-[2px] border-[#C86B1F] bg-primary flex justify-center items-center">
                 <div className="flex flex-col">
                   <h3 className="uppercase text-black text-[18px] tablet:text-[24px]">
@@ -110,7 +110,7 @@ const Featured3 = () => {
                   </h3>
                   <p className="text-paragraph text-[12px] tablet:text-[16px]">
                     Our reliable services are designed to streamline your
-                    business operations, providing flexibility and improved
+                    business<br/> operations, providing flexibility and improved
                     efficiency.
                   </p>
                 </div>

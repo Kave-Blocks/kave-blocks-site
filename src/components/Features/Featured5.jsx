@@ -11,7 +11,7 @@ const Featured5 = () => {
           <div className="flex-[1] flex flex-col justify-center items-center gap-y-5">
             <DivFadeRight>
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
-                <h3 className="text-black">Experienced & Passionate Team</h3>
+                <h3 className="text-black">Affordable and Quality Services</h3>
                 <div className="flex justify-center items-center">
                   <img src="/Group94.svg" alt="" width="250px" height="250px"/>
                 </div>
@@ -23,7 +23,7 @@ const Featured5 = () => {
             </DivFadeRight>
             <DivFadeRight>
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
-                <h3 className="text-black">Experienced & Passionate Team</h3>
+                <h3 className="text-black">Timely and Reliable Delivery</h3>
                 <div className="flex justify-center items-center">
                   <img src="/Group 99.svg" alt="" width="250px" height="250px"/>
                 </div>
@@ -54,7 +54,8 @@ const Featured5 = () => {
             </DivFadeIn>
             <DivFadeIn>
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
-                <h3 className="text-black">Affordable and Quality Services</h3>
+                <h3 className="text-black">Open and Honest Communication
+                </h3>
                 <div className="flex justify-center items-center">
                   <img src="/Group94(1).svg" alt="" width="250px" height="250px"/>
                 </div>
@@ -80,7 +81,7 @@ const Featured5 = () => {
             </DivFadeLeft>
            <DivFadeLeft>
             <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
-                <h3 className="text-black">Experienced & Passionate Team</h3>
+                <h3 className="text-black">Scalable Solutions for Growth</h3>
                 <div className="flex justify-center items-center">
                   <img src="/Group99(2).svg" alt="" width="250px" height="250px"/>
                 </div>
