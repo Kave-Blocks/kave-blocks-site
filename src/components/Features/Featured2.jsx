@@ -6,7 +6,7 @@ const Featured2 = () => {
     <div className="min-h-screen flex justify-center items-center px-4 tablet:px-20 py-20 w-full">
       <div className="relative mx-auto max-w-7xl flex flex-col w-full">
         <img
-          src="/circleOnly.svg"
+          src="/circleOnly.webp"
           alt=""
           className="hidden laptop:block  laptop:absolute laptop:top-0 laptop:-right-12 z-0"
         />
@@ -20,7 +20,7 @@ const Featured2 = () => {
         <div className="grid tablet:grid-cols-3 gap-5 z-10 w-full">
           <div className="flex flex-col gap-y-5 justify-start items-center">
           <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
-            <img src="/designImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+            <img src="/designImg.webp" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
             <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
               <div className="h-full w-full flex justify-center items-center">
                 <h3 className="text-[40px] text-white font-bold tracking-wider">DESIGN</h3>
@@ -37,7 +37,7 @@ const Featured2 = () => {
           </div>
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[130px]">
             <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
-              <img src="/developImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+              <img src="/developImg.webp" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
               <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
                 <div className="h-full w-full flex justify-center items-center">
                   <h3 className="text-[40px] text-white font-bold tracking-wider">DEVELOP</h3>
@@ -54,7 +54,7 @@ const Featured2 = () => {
           </div>
           <div className="flex flex-col gap-y-5 justify-start items-center tablet:pt-[260px]">
             <div className="group relative overflow-hidden md:w-[386px] md:h-[500px] rounded-3xl">
-              <img src="/maintainImg.svg" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
+              <img src="/maintainImg.webp" alt="" className="group-hover:scale-[1.1] duration-300 w-full h-full object-cover"/>
               <div className="absolute top-0 left-0 justify-center items-center w-full h-full hidden group-hover:block backdrop-blur-sm duration-300">
                 <div className="h-full w-full flex justify-center items-center">
                   <h3 className="text-[40px] text-white font-bold tracking-wider">MAINTAIN</h3>

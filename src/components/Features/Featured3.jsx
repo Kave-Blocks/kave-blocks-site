@@ -29,12 +29,12 @@ const Featured3 = () => {
                   </p>
                 </div>
               </div>
-              <img src="/x.svg" alt="" />
+              <img src="/x.webp" alt="" />
             </div>
           </DivFadeRight>
           <DivFadeLeft>
             <div className="flex flex-col-reverse tablet:flex-row justify-center items-center">
-              <img src="/c.svg" alt="" />
+              <img src="/c.webp" alt="" />
               <div className="w-full desktop:min-w-[647px] py-10 laptop:py-0 tablet:h-[201px] rounded-[24px] px-5 laptop:px-20 border-[2px] border-[#C86B1F] bg-primary flex justify-center items-center">
                 <div className="flex flex-col">
                   <h3 className="uppercase text-black text-[18px] tablet:text-[24px]">
@@ -63,12 +63,12 @@ const Featured3 = () => {
                   </p>
                 </div>
               </div>
-              <img src="/curve.svg" alt="" />
+              <img src="/curve.webp" alt="" />
             </div>
           </DivFadeRight>
           <DivFadeLeft>
             <div className="flex flex-col-reverse tablet:flex-row justify-center items-center">
-              <img src="/cover.svg" alt="" />
+              <img src="/cover.webp" alt="" />
               <div className="w-full desktop:min-w-[647px] py-10 tablet:py-0 tablet:h-[201px] rounded-[24px] px-5 laptop:px-20 border-[2px] border-[#C86B1F] bg-primary flex justify-center items-center">
                 <div className="flex flex-col">
                   <h3 className="uppercase text-black text-[18px] tablet:text-[24px]">
@@ -97,12 +97,12 @@ const Featured3 = () => {
                   </p>
                 </div>
               </div>
-              <img src="/cone.svg" alt="" />
+              <img src="/cone.webp" alt="" />
             </div>
           </DivFadeRight>
           <DivFadeLeft>
             <div className="flex flex-col-reverse tablet:flex-row justify-center items-center">
-              <img src="/cut.svg" alt="" />
+              <img src="/cut.webp" alt="" />
               <div className="w-full desktop:min-w-[647px] py-10 tablet:py-0 tablet:h-[201px] rounded-[24px] px-5 laptop:px-20 border-[2px] border-[#C86B1F] bg-primary flex justify-center items-center">
                 <div className="flex flex-col">
                   <h3 className="uppercase text-black text-[18px] tablet:text-[24px]">
