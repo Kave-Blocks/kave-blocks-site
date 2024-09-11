@@ -18,12 +18,12 @@ const Featured6 = () => {
           <div className="flex-[1.5] relative rounded-r-[30px] w-full">
             <DivFadeRight>
             <img
-              src="/Rectangle 52.svg"
+              src="/Rectangle 52.webp"
               alt=""
               className="object-cover w-full"
             />
             <img
-              src="/featured6_img1.svg"
+              src="/featured6_img1.webp"
               alt=""
               className="hidden laptop:block laptop:absolute laptop:-bottom-20 laptop:-right-10"
             />

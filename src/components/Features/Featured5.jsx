@@ -13,7 +13,7 @@ const Featured5 = () => {
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
                 <h3 className="text-black">Affordable and Quality Services</h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group94.svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group94.webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   We are committed to delivering top-notch services at competitive
@@ -25,7 +25,7 @@ const Featured5 = () => {
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
                 <h3 className="text-black">Timely and Reliable Delivery</h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group 99.svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group 99.webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   We guarantee that your projects will be completed on time and to
@@ -39,7 +39,7 @@ const Featured5 = () => {
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
                 <h3 className="text-black">Experienced & Passionate Team</h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group 99 (1).svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group 99 (1).webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   Our dedicated team brings a wealth of expertise and unwavering
@@ -49,7 +49,7 @@ const Featured5 = () => {
             </DivFadeIn>
             <DivFadeIn>
               <div className="py-10">
-                <img src="/Framelogo.svg" alt="" width="250px" height="250px"/>
+                <img src="/Framelogo.webp" alt="" width="250px" height="250px"/>
               </div>
             </DivFadeIn>
             <DivFadeIn>
@@ -57,7 +57,7 @@ const Featured5 = () => {
                 <h3 className="text-black">Open and Honest Communication
                 </h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group94(1).svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group94(1).webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   We maintain clear and honest communication throughout the
@@ -71,7 +71,7 @@ const Featured5 = () => {
               <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
                 <h3 className="text-black">Customizable Project Solutions</h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group113.svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group113.webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   We tailor our solutions to fit your unique needs and
@@ -83,7 +83,7 @@ const Featured5 = () => {
             <div className="flex flex-col -space-y-7 bg-primary rounded-[24px] p-6">
                 <h3 className="text-black">Scalable Solutions for Growth</h3>
                 <div className="flex justify-center items-center">
-                  <img src="/Group99(2).svg" alt="" width="250px" height="250px"/>
+                  <img src="/Group99(2).webp" alt="" width="250px" height="250px"/>
                 </div>
                 <p>
                   Our solutions are designed to grow with your business, providing

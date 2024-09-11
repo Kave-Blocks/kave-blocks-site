@@ -5,7 +5,7 @@ const Featured1 = () => {
   return (
     <div className='tablet:smin-h-screen flex justify-center items-center'>
       <DivFadeIn>
-        <img src="/featured1.svg" alt="" className='object-cover object-center'/>
+        <img src="/featured1.webp" alt="" className='object-cover object-center'/>
       </DivFadeIn>
     </div>
   )

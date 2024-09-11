@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex-[1] flex justify-center items-center border-l-[1px] border-white px-10 text-white">
           <div className="flex flex-col justify-center items-center gap-y-7">
             <img
-              src="/headerLogo.svg"
+              src="/headerLogo.webp"
               alt=""
               className="w-[100px] tablet:w-[200px]"
             />
